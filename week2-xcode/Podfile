@@ -1,0 +1,22 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'week2-xcode' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for week2-xcode
+  pod 'Alamofire', '~> 3.0'
+
+
+  target 'week2-xcodeTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'week2-xcodeUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
